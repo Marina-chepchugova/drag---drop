@@ -1,0 +1,81 @@
+
+
+
+*{box-sizing: border-box;
+	
+}
+
+
+body{
+	font-family:Book Antiqua ;
+	background-color: rgb(240, 237, 208);
+	display: flex;
+	flex-flow: column;
+	padding-top: 5rem;
+	align-items: center;
+	overflow: hidden;
+	margin: 0;
+
+ }
+.row {
+	display: flex;
+	width: 600px;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+
+
+
+
+
+}
+.col-header {
+	width: 150px;
+	box-shadow:4px 4px 9px cornflowerblue ;
+	border-radius: 25px ;
+ padding: 0.8rem  1rem ;
+ color:#fff ;
+
+
+}
+.item {
+	width: 150px;
+	height: 66px;
+	border: 1px solid #eee;
+	box-shadow:4px 4px 9px cornflowerblue ;
+border-radius: 20px;
+background: rgb(119, 36, 158);
+padding: 0.8rem  1rem ;
+color: #fff;
+text-align: center;
+cursor: grab;
+
+}
+.item:active{
+	cursor: grabbing;
+}
+.placeholder {
+	width: 150px;
+	height: 66px;
+}
+.start {
+	background:linear-gradient( 90deg, rgb(199, 148, 230) 0%, rgb(50, 23, 226)  179%);
+}
+.progress {background:linear-gradient( 90deg, rgb(199, 148, 230) 0%, rgb(50, 23, 226)  179%);
+}
+.done {background:linear-gradient( 90deg, rgb(199, 148, 230) 0%, rgb(50, 23, 226)  179%);
+}
+
+.hold{
+	border: 5px solid red;
+}
+.hide{
+display:none;
+
+} 
+
+.hovered{
+
+	border-top: 3px solid rgb(189, 151, 206);
+}
+
+
